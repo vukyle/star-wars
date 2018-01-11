@@ -1,0 +1,18 @@
+{
+  "name": "customerbase",
+  "version": "1.0.0",
+  "description": "ql server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "author": "Vu Le",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "nodemon": "^1.14.10"
+  }
+}
